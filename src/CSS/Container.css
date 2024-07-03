@@ -1,0 +1,31 @@
+/* ChartContainer.css */
+.chart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myButton {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Adjusting chart styles */
+  .canvas-container {
+    max-height: 300px; /* Set a max height for the chart */
+  }
+  
+  .chartjs-render-monitor {
+    width: 100%;
+  }
+  

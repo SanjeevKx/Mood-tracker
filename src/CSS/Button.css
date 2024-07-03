@@ -1,0 +1,14 @@
+/* ButtonContainer.css */
+.myButton {
+  display:block; /* Set buttons to block level to appear one below another */
+  margin: 10px 0; /* Add margin to separate buttons vertically */
+  padding: 15px 20px; /* Increase padding for a larger button */
+  font-size: 18px; /* Increase font size */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Increase border-radius for rounded corners */
+  cursor: pointer;
+  width: 100%; /* Make the buttons take 100% width of the container */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}

@@ -1,0 +1,40 @@
+/* MoodTracker.css */
+.mood-tracker {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .color-empty {
+    fill: #e0e0e0; /* Empty day color */
+    stroke: #ccc;
+  }
+  
+  .color-scale-1 {
+    fill: #ffcdd2; /* Mood level 1 color */
+    stroke: #e57373;
+  }
+  
+  .color-scale-2 {
+    fill: #f8bbd0; /* Mood level 2 color */
+    stroke: #f06292;
+  }
+  
+  .color-scale-3 {
+    fill: #e1bee7; /* Mood level 3 color */
+    stroke: #ba68c8;
+  }
+  
+  .color-scale-4 {
+    fill: #d1c4e9; /* Mood level 4 color */
+    stroke: #9575cd;
+  }
+  
+  .color-scale-5 {
+    fill: #c5cae9; /* Mood level 5 color */
+    stroke: #7986cb;
+  }
+  
